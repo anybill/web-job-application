@@ -12,43 +12,42 @@ Das Formular wird von Händlern (z.B. Getränktemärkte, Gastronomen, etc.) genu
 
 ## Mindestvoraussetzungen
 Entwickle eine Webseite mit einem Formular zur Anmeldung bei anybill. Halte dich dabei an folgende Voraussetzungen:
-- Das Formular sollte mindestens die Eingaben für **Unternehmensname**, **E-Mail** und einer **Auswahl der benutzen Kassensoftware** des Händlers enthalten
-- Kommunizieren mit unserer öffentlichen API. Die API ist unter https://partner.stg.anybill.de/api/swagger/index.html dokumentiert. Benutze dabei die folgenden zwei Endpunkte:
+- **Mindestvoraussetzungen 1:** Das Formular sollte mindestens die Eingaben für **Unternehmensname**, **E-Mail** und einer **Auswahl der benutzen Kassensoftware** des Händlers enthalten
+- **Mindestvoraussetzungen 2:** Kommunizieren mit unserer öffentlichen API. Die API ist unter https://partner.stg.anybill.de/api/swagger/index.html dokumentiert. Benutze dabei die folgenden zwei Endpunkte:
   - [GET /customer/pos](https://partner.stg.anybill.de/api/swagger/index.html#/Customer/get_customer_pos): 
-Dieser Endpunkt gibt eine die Kassensoftwareliste zurück. Dabei sind vor allem die **Id** und der **Name** der Kassensoftware wichtig. Der Name der Kassensoftware soll im **Auswahlfeld der benutzen Kassensoftware** des Händler angezeigt werden. Beispiel: 
-
-```console
-foo@bar:~$ curl https://partner.stg.anybill.de/api/customer/pos
-```
-
-Das Ergebnis ist eine Liste mit solchen Einträgen:
-```json
-[
+  Dieser Endpunkt gibt eine die Kassensoftwareliste zurück. Dabei sind vor allem die **Id** und der **Name** der Kassensoftware wichtig. Der Name der Kassensoftware soll im **Auswahlfeld der benutzen Kassensoftware** des Händler angezeigt werden. Beispiel: 
+  ```console
+  foo@bar:~$ curl https://partner.stg.anybill.de/api/customer/pos
+  ```
+  Das Ergebnis ist eine Liste mit solchen Einträgen:
+  ```json
+  [
+    {
+      "Id": "44901dc6-c9ab-41d9-8f4f-5a719071bdde",
+      "Name": "Test-PosSoftwareCustomer",
+      "IsActivated": true,
+      "State": "Live"
+    }
+  ]
+  ```
+  - [POST /customer/vendor/apply](https://partner.stg.anybill.de/api/swagger/index.html#/Customer/post_customer_vendor_apply)
+  Dieser Endpunkt soll dazu benutzt werden, die im Formular eingegeben Daten abzuschicken und die Registrierung abzuschließen. Dabei müssen mindestens die folgenden Angaben verschickt werden:
+  1. **CompanyName:** Der eingegebene **Unternehmensname**
+  2. **Email:** Die eingegeben E-Mail
+  3. **PosSoftwareCustomerId:** Die Id der ausgewählten **Kassensoftware** (Im Beispiel oben "44901dc6-c9ab-41d9-8f4f-5a719071bdde")
+  Beispiel: POST /customer/vendor/apply
+  ```json
   {
-    "Id": "44901dc6-c9ab-41d9-8f4f-5a719071bdde",
-    "Name": "Test-PosSoftwareCustomer",
-    "IsActivated": true,
-    "State": "Live"
+     "CompanyName": "Test Bewerbung Web",
+     "Email": "random@anybill.de",
+     "PosSoftwareCustomerId": "44901dc6-c9ab-41d9-8f4f-5a719071bdde"
   }
-]
-```
-
-- [POST /customer/vendor/apply](https://partner.stg.anybill.de/api/swagger/index.html#/Customer/post_customer_vendor_apply)
-Dieser Endpunkt soll dazu benutzt werden, die im Formular eingegeben Daten abzuschicken und die Registrierung abzuschließen. Dabei müssen mindestens die folgenden Angaben verschickt werden:
-- **CompanyName:** Der eingegebene **Unternehmensname**
-- **Email:** Die eingegeben E-Mail
-- **PosSoftwareCustomerId:** Die Id der ausgewählten **Kassensoftware** (Im Beispiel oben "44901dc6-c9ab-41d9-8f4f-5a719071bdde")
-
-Beispiel: POST /customer/vendor/apply
-```json
-{
-   "CompanyName": "Test Bewerbung Web",
-   "Email": "random@anybill.de",
-   "PosSoftwareCustomerId": "44901dc6-c9ab-41d9-8f4f-5a719071bdde"
-}
-```
+  ```
+- **Mindestvoraussetzungen 3:** Benutze für diese Aufgabe **Typescript** und einen **beliebiges Frontend-Framework** (Vue, React, Angular, etc.) deiner Wahl. Da anybill hauptsächlich Vue verwendet, wäre das die präferierte Wahl. Aber auch andere Frameworks sind völlig in Ordnung! 
+-  
 ## Optionale Aufgaben
 
 # Abgabe
 - Vorgehen
+- Benutzes Frameworks und Bibliotheken
 - Beschreibung der implementieren Features
