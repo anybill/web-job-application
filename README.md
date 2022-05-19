@@ -34,8 +34,19 @@ Das Ergebnis ist eine Liste mit solchen Einträgen:
 ```
 
 - [POST /customer/vendor/apply](https://partner.stg.anybill.de/api/swagger/index.html#/Customer/post_customer_vendor_apply)
-Dieser Endpunkt soll dazu benutzt werden, die im Formular eingegeben Daten abzuschicken und die Registrierung abzuschließen.
+Dieser Endpunkt soll dazu benutzt werden, die im Formular eingegeben Daten abzuschicken und die Registrierung abzuschließen. Dabei müssen mindestens die folgenden Angaben verschickt werden:
+- **CompanyName:** Der eingegebene **Unternehmensname**
+- **Email:** Die eingegeben E-Mail
+- **PosSoftwareCustomerId:** Die Id der ausgewählten **Kassensoftware** (Im Beispiel oben "44901dc6-c9ab-41d9-8f4f-5a719071bdde")
 
+Beispiel: POST /customer/vendor/apply
+```json
+{
+   "CompanyName": "Test Bewerbung Web",
+   "Email": "random@anybill.de",
+   "PosSoftwareCustomerId": "44901dc6-c9ab-41d9-8f4f-5a719071bdde"
+}
+```
 ## Optionale Aufgaben
 
 # Abgabe
