@@ -5,7 +5,7 @@ Dieses Repository dient als Ausgangspunkt für die Code Aufgabe, die man als Bew
 # Ablauf
 **Das Repository soll geforkt werden.** Alle Änderungen und Entwicklungen sollten in einem privaten **Fork** dieses Repositories durchgeführt werden.
 Bearbeite die dir gestellte Aufgabe unter Einbezug der Zeitvorgaben so gut wie möglich. Achte dabei darauf, dass die gestellten Mindestvoraussetzungen erfüllt werden. Sind diese erledigt, können weitere optionale Aufgaben erfüllt werden. Die optionale Aufgaben sollten nur dann erledigt werden, wenn noch freie Zeit vorhanden ist.
-Ist das Projekt abgeschlossen, stelle eine README.md Datei mit einer Beschreibung des Projekts in deinem Repository zusammen.
+Ist das Projekt abgeschlossen, stelle eine Assignment.md Datei mit einer Beschreibung des Projekts in deinem Repository zusammen.
 
 # Aufgabe
 Die Aufgabe besteht daraus, eine Webseite mit einem Formular zur Registrierung eines Accounts bei anybill zu entwickeln. Dabei kann das offizielle Formular von anybill als Beispielvorlage benutzt werden. Das Formular findet man unter https://test.anybill.de/business, indem man auf den Button **Unverbindlich Anmelden** klickt:
@@ -63,7 +63,7 @@ Neben den Mindestvoraussetzungen können nach Belieben noch weitere Features in 
 - **Gerne auch eigene Ideen und Verbesserungen mit einbringen!**
 
 # Abgabe
-Für die Abgabe des Projekts, bitte eine README.md Datei in deinem Repository erstellen und die folgenden Punkte dokumentieren:
+Für die Abgabe des Projekts, bitte eine Assignment.md Datei in deinem Repository erstellen und die folgenden Punkte dokumentieren:
 - **Vorgehen:** Wie bist du beim Erstellen/Entwickeln vorgegangen? Gab es Probleme? Wie hast du diese gelöst? Hier reicht ein kurzer Abschnitt mit den wichtigesten Informationen.
 - **Benutzes Frameworks und Bibliotheken:** Liste hier kurz die verwendeten Frameworks und Bibliotheken auf. Gerne auch mit einer Begründung warum du dich für diese entschieden hast.
 -** Beschreibung der implementieren Features:** Beschreibe die von dir implementierten Features kurz. Sollten optionale Features mit aufgenommen worden sein, beschreibe kurz wie und wieso diese implementiert wurden. 
