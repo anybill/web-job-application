@@ -33,7 +33,7 @@ Entwickle eine Webseite mit einem Formular zur Anmeldung bei anybill. Halte dich
     }
   ]
   ```
-  - [POST /customer/vendor/apply](https://partner.stg.anybill.de/api/swagger/index.html#/Customer/post_customer_vendor_apply)
+  - [POST /customer/vendor/apply](https://partner.stg.anybill.de/api/swagger/index.html#/Customer/post_customer_vendor_apply):
   Dieser Endpunkt soll dazu benutzt werden, die im Formular eingegeben Daten abzuschicken und die Registrierung abzuschließen. Dabei müssen mindestens die folgenden Angaben verschickt werden:
   1. **CompanyName:** Der eingegebene **Unternehmensname**
   2. **Email:** Die eingegeben E-Mail
