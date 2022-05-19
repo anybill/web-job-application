@@ -3,7 +3,7 @@ Dieses Repository dient als Ausgangspunkt für die Code Aufgabe, die man als Bew
 
 # Ablauf
 **Das Repository soll geforkt werden.** Alle Änderungen und Entwicklungen sollten in einem privaten **Fork** dieses Repositories durchgeführt werden.
-Bearbeite die dir gestellte Aufgabe unter einbehalt der Zeitvorgaben so gut wie möglich. Achte dabei darauf, dass die gestellten Mindestvoraussetzungen erfüllt werden. Sind diese erledigt, können weitere optionale Aufgaben erfüllt werden. Die optionale Aufgaben sollten nur dann erledigt werden, wenn noch freie Zeit vorhanden ist. Diese dienen dazu, weitere Fähigkeiten und Kenntnisse unter Beweis zu stellen und eventuell hervorzuheben. Die optionalen Aufgaben sind lediglich eine Sammlung von typischen Aufgaben, die ein\*e Web-Entwickler\*in im Arbeitsalltag lösen muss.
+Bearbeite die dir gestellte Aufgabe unter Einbezug der Zeitvorgaben so gut wie möglich. Achte dabei darauf, dass die gestellten Mindestvoraussetzungen erfüllt werden. Sind diese erledigt, können weitere optionale Aufgaben erfüllt werden. Die optionale Aufgaben sollten nur dann erledigt werden, wenn noch freie Zeit vorhanden ist. Diese dienen dazu, weitere Fähigkeiten und Kenntnisse unter Beweis zu stellen und eventuell hervorzuheben. Die optionalen Aufgaben sind lediglich eine Sammlung von typischen Aufgaben, die ein\*e Web-Entwickler\*in im Arbeitsalltag lösen muss.
 
 # Aufgabe
 Die Aufgabe besteht daraus, eine Webseite mit einem Formular zur Registrierung eines Accounts bei anybill zu entwickeln. Dabei kann das offizielle Formular von anybill als Beispielvorlage benutzt werden. Das Formular findet man unter https://test.anybill.de/business, indem man auf den Button **Unverbindlich Anmelden** klickt:
