@@ -11,7 +11,7 @@ Die Aufgabe besteht daraus, eine Webseite mit einem Formular zur Registrierung e
 Das Formular wird von Händlern (z.B. Getränktemärkte, Gastronomen, etc.) genutzt, die Interesse an einem digitalen Bon mit anybill haben.
 
 ## Mindestvoraussetzungen
-Entwickle eine Webseite mit einem Formular zur Anmeldung bei anybill. Halte dich dabei an folgende Voraussetzungen:
+Entwickle eine Webseite mit einem Formular zur Anmeldung bei anybill. Halte dich dabei an folgende **drei Mindestvoraussetzungen**:
 - **Mindestvoraussetzungen 1:** Das Formular sollte mindestens die Eingaben für **Unternehmensname**, **E-Mail** und einer **Auswahl der benutzen Kassensoftware** des Händlers enthalten
 - **Mindestvoraussetzungen 2:** Kommunizieren mit unserer öffentlichen API. Die API ist unter https://partner.stg.anybill.de/api/swagger/index.html dokumentiert. Benutze dabei die folgenden zwei Endpunkte:
   - [GET /customer/pos](https://partner.stg.anybill.de/api/swagger/index.html#/Customer/get_customer_pos): 
