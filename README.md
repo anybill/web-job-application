@@ -1,9 +1,11 @@
 # Einführung
 Dieses Repository dient als Ausgangspunkt für die Code Aufgabe, die man als Bewerber\*in bei anybill als Web-Entwickler\*in durchführen muss.
+**Wichtig:** Gibt es Unklarheiten bezüglich der Aufgabe oder Probleme mit der API, nicht zögern und am Besten direkt an deinen Ansprechpartner wenden! Wir helfen gerne weiter!
 
 # Ablauf
 **Das Repository soll geforkt werden.** Alle Änderungen und Entwicklungen sollten in einem privaten **Fork** dieses Repositories durchgeführt werden.
 Bearbeite die dir gestellte Aufgabe unter Einbezug der Zeitvorgaben so gut wie möglich. Achte dabei darauf, dass die gestellten Mindestvoraussetzungen erfüllt werden. Sind diese erledigt, können weitere optionale Aufgaben erfüllt werden. Die optionale Aufgaben sollten nur dann erledigt werden, wenn noch freie Zeit vorhanden ist.
+Ist das Projekt abgeschlossen, stelle eine README.md Datei mit einer Beschreibung des Projekts in deinem Repository zusammen.
 
 # Aufgabe
 Die Aufgabe besteht daraus, eine Webseite mit einem Formular zur Registrierung eines Accounts bei anybill zu entwickeln. Dabei kann das offizielle Formular von anybill als Beispielvorlage benutzt werden. Das Formular findet man unter https://test.anybill.de/business, indem man auf den Button **Unverbindlich Anmelden** klickt:
@@ -24,8 +26,8 @@ Entwickle eine Webseite mit einem Formular zur Anmeldung bei anybill. Halte dich
   ```json
   [
     {
-      "Id": "44901dc6-c9ab-41d9-8f4f-5a719071bdde",
-      "Name": "Test-PosSoftwareCustomer",
+      "Id": "731486b3-375f-426f-2241-08d958a0d18e",
+      "Name": "techreach GmbH (POS)",
       "IsActivated": true,
       "State": "Live"
     }
@@ -41,7 +43,7 @@ Entwickle eine Webseite mit einem Formular zur Anmeldung bei anybill. Halte dich
   {
      "CompanyName": "Test Bewerbung Web",
      "Email": "random@anybill.de",
-     "PosSoftwareCustomerId": "44901dc6-c9ab-41d9-8f4f-5a719071bdde"
+     "PosSoftwareCustomerId": "731486b3-375f-426f-2241-08d958a0d18e"
   }
   ```
 ## Optionale Aufgaben
@@ -61,8 +63,8 @@ Neben den Mindestvoraussetzungen können nach Belieben noch weitere Features in 
 - **Gerne auch eigene Ideen und Verbesserungen mit einbringen!**
 
 # Abgabe
-
-- Vorgehen
-- Benutzes Frameworks und Bibliotheken
-- Beschreibung der implementieren Features
+Für die Abgabe des Projekts, bitte eine README.md Datei in deinem Repository erstellen und die folgenden Punkte dokumentieren:
+- Vorgehen: Wie bist du beim Erstellen/Entwickeln vorgegangen? Gab es Probleme? Wie hast du diese gelöst? Hier reicht ein kurzer Abschnitt mit den wichtigesten Informationen.
+- Benutzes Frameworks und Bibliotheken: Liste hier kurz die verwendeten Frameworks und Bibliotheken auf. Gerne auch mit einer Begründung warum du dich für diese entschieden hast.
+- Beschreibung der implementieren Features: Beschreibe die von dir implementierten Features kurz. Sollten optionale Features mit aufgenommen worden sein, beschreibe kurz wie und wieso diese implementiert wurden. 
 
